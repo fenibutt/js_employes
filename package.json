@@ -1,0 +1,22 @@
+{
+  "name": "js_employes",
+  "version": "1.0.0",
+  "description": "`POST /api/v1/employes`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenibutt/js_employes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenibutt/js_employes/issues"
+  },
+  "homepage": "https://github.com/fenibutt/js_employes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
