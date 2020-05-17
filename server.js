@@ -34,7 +34,7 @@ function dbInit() {
 	fs.writeFileSync(DB_PATH_EMPLOYES, JSON.stringify(parsedData));
 }
 
-function dbEmployesLoadFile(errorHandler) {
+function dbEmployesLoadFile(errorHandler = () => {}) {
 	const content = fs.readFileSync(DB_PATH_EMPLOYES);
 
   let parsedData;
